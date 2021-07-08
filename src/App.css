@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap');
+
+.app{
+  font-family: Raleway;
+  padding:2em;
+}
+
+
+.container{
+  width:80%;
+  margin:auto;
+}
+
+
+.superHero{
+  height:350px;
+  width:250px;
+  background-position: center/top;
+  background-size: cover;
+  border-radius: 10px;
+  transform:scale(0.8);
+  transition: 0.2s ease-out;
+}
+
+.superHero:hover{
+  transform:scale(1);
+}
