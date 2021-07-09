@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 2121,
+    "articles": [
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Angela Watercutter",
+            "title": "Amazon’s Hollywood Ambitions Are Very Old-School",
+            "description": "Amidst a wave of media consolidation, the retail giant’s moves feel like they come from an old playbook.",
+            "url": "https://www.wired.com/story/amazon-old-school-hollywood/",
+            "urlToImage": "https://media.wired.com/photos/60e4d65c2d3e5fd644c4f673/191:100/w_1280,c_limit/Culture_MGM_default-(1).jpg",
+            "publishedAt": "2021-07-08T11:00:00Z",
+            "content": "Out of everything Jeff Bezos has ever said, one quote may best sum up just how, exactly, Amazon will impact Hollywood: When we win a Golden Globe, it helps us sell more shoes. He said this back in 20… [+3507 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Taylor Hatmaker",
+            "title": "Google faces a major multi-state antitrust lawsuit over Google Play fees",
+            "description": "A group of 37 attorneys general filed a second major multi-state antitrust lawsuit against Google Wednesday, accusing the company of abusing its market power to stifle competitors and forcing consumers into in-app payments that grant the company a hefty cut. …",
+            "url": "http://techcrunch.com/2021/07/07/google-state-lawsuit-android-attorneys-general/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2018/02/gettyimages-913011976.jpg?w=602",
+            "publishedAt": "2021-07-08T01:04:08Z",
+            "content": "A group of 37 attorneys general filed a second major multi-state antitrust lawsuit against Google Wednesday, accusing the company of abusing its market power to stifle competitors and forcing consume… [+3054 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Steve Gillmor",
+            "title": "Gillmor Gang: TV Clubhouse",
+            "description": "The Gang spends a lot of time these days on the streaming wars, so it seems appropriate that Congress wants to get into it. With Netflix’s success at overturning the structure of Hollywood’s broadcast television production and advertising processes, consumers…",
+            "url": "http://techcrunch.com/2021/07/08/gillmor-gang-tv-clubhouse/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/07/F06D2685-6169-42C0-AE3B-D2545A1B3534.jpeg?w=711",
+            "publishedAt": "2021-07-08T18:53:42Z",
+            "content": "The Gang spends a lot of time these days on the streaming wars, so it seems appropriate that Congress wants to get into it. With Netflixs success at overturning the structure of Hollywoods broadcast … [+6772 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Gizmodo.com"
+            },
+            "author": "Sam Rutherford",
+            "title": "Steve Wozniak Voices Strong Support for the Growing Right to Repair Movement",
+            "description": "In what has become a growing battle between big tech companies and the people who use their products, iconic Apple co-founder Steve Wozniak recently spoke out in support of the right to repair movement. Read more...",
+            "url": "https://gizmodo.com/steve-wozniak-voices-strong-support-for-the-growing-rig-1847251718",
+            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/0745ba14b36d38544c58f1bf2b7ba329.jpg",
+            "publishedAt": "2021-07-08T15:20:00Z",
+            "content": "In what has become a growing battle between big tech companies and the people who use their products, iconic Apple co-founder Steve Wozniak recently spoke out in support of the right to repair moveme… [+3122 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Opinion by Julian Zelizer, CNN Political Analyst",
+            "title": "Opinion: It's time to make vaccinations mandatory",
+            "description": "From social security to polio vaccines to drivers licenses and the draft, the United States has a long history of requiring citizens to participate in programs that help all of us, writes Julian Zelizer. Thinking of the common good is patriotic, as American a…",
+            "url": "https://www.cnn.com/2021/07/07/opinions/its-time-to-mandate-vaccination-zelizer/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/210707203356-vaccination-los-angeles-feb-2021-super-tease.jpg",
+            "publishedAt": "2021-07-08T02:03:16Z",
+            "content": "Julian Zelizer, a CNN political analyst, is a professor of history and public affairs at Princeton University and author of the book, \"Burning Down the House: Newt Gingrich, the Fall of a Speaker, an… [+3537 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Blog.google"
+            },
+            "author": "Wilson WhiteSenior Director of Public Policy",
+            "title": "A lawsuit that ignores choice on Android and Google Play",
+            "description": "We built Android to create more choices in mobile technology. Today, anyone, including our competitors, can customize and build devices with the Android operating system — for free. \r\nWe also built an app store, Google Play, that helps people download apps on…",
+            "url": "https://blog.google/outreach-initiatives/public-policy/lawsuit-ignores-choice-android-and-google-play/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+blogspot%2FMKuf+%28The+Keyword+%7C+Official+Google+Blog%29",
+            "urlToImage": "https://blog.google/static/blogv2/images/google-1000x1000.png",
+            "publishedAt": "2021-07-08T01:10:00Z",
+            "content": "First, our current business model benefits the overwhelming majority of developers. About 97% of developers today dont sell digital content on Google Play and therefore aren't subject to a service fe… [+443 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters",
+            "title": "Hong Kong's Next Digital says CEO, CFO resign - Reuters",
+            "description": "Hong Kong Media group Next Digital <a href=\"https://www.reuters.com/companies/0282.HK\" target=\"_blank\">(0282.HK)</a> on Thursday said it had received an email from the solicitors of its chief executive officer, Cheung Kim-hung, stating that he had resigned, a…",
+            "url": "https://www.reuters.com/business/media-telecom/hong-kongs-next-digital-says-ceo-cfo-resign-2021-07-08/",
+            "urlToImage": "https://www.reuters.com/resizer/85ky1uzQ5GitY5LJ8EmW1u-Yamg=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/4ZUVXC5WBNOHRDPCYFVORKOLLY.jpg",
+            "publishedAt": "2021-07-08T15:10:00Z",
+            "content": "The logo of Next Digital Ltd is seen above an Apple Daily sign on the facade of its building in Hong Kong, China May 17, 2021. REUTERS/Lam YikJuly 8 (Reuters) - Hong Kong Media group Next Digital (02… [+1830 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Jennifer Hughes",
+            "title": "Chinese IPO detour benefits Hong Kong only so much - Reuters",
+            "description": "If one capital market door closes, another one typically opens. Hong Kong Exchanges and Clearing <a href=\"https://www.reuters.com/companies/0388.HK\" target=\"_blank\">(0388.HK)</a> added 5% to its equity value after Didi Global’s <a href=\"https://www.reuters.co…",
+            "url": "https://www.reuters.com/breakingviews/chinese-ipo-detour-benefits-hong-kong-only-so-much-2021-07-08/",
+            "urlToImage": "https://www.reuters.com/resizer/THuF70D82yc16m40QMj6tzAxo5M=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/F4ZR3M74EJNQBK7XVKL4BHB22E.jpg",
+            "publishedAt": "2021-07-08T03:43:00Z",
+            "content": "Jan Craps (L), chief executive officer of Budweiser Brewing Company APAC Ltd, attends the listing ceremony of the AB InBev's Asia-Pacific unit at the Hong Kong Stock Exchange in Hong Kong, China, on … [+3402 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Android Central"
+            },
+            "author": "Babu Mohan",
+            "title": "Google and Apple 'crush' competition with default apps: Study",
+            "description": "The study's findings show twelve out of the top 20 apps on Android were made by Google.\n\n\n\nWhat you need to know\n\n\nA new Comscore study claims Google and Apple's preinstalled apps dominate their respective mobile platforms.\nGoogle Play is apparently the most …",
+            "url": "https://www.androidcentral.com/google-and-apple-crush-competition-default-apps-study",
+            "urlToImage": "https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2020/12/google-apps-1.jpeg",
+            "publishedAt": "2021-07-08T17:19:15Z",
+            "content": "According to a new study from Comscore, the vast majority of the \"most-used\" mobile apps in the U.S. actually come preinstalled by either Google or Apple. The study was commissioned by Facebook and s… [+1947 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Android Central"
+            },
+            "author": "Derrek Lee",
+            "title": "Google is hit with another lawsuit targeting high Play Store app fees",
+            "description": "Have you lost count yet on the number of antitrust cases against Google?\n\nWhat you need to know\n\n\nGoogle faces another antitrust lawsuit, this time over Play Store policies.\nThe NY AG and a coalition of state attorney generals have filed against Google, claim…",
+            "url": "https://www.androidcentral.com/google-play-store-antitrust-lawsuit",
+            "urlToImage": "https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2017/10/google-logo-black-white-13tsm-13tsm.jpg",
+            "publishedAt": "2021-07-08T00:12:41Z",
+            "content": "New York Attorney General Letitia James co-leads a coalition of 37 state attorney generals in a new antitrust lawsuit against Google over monopolistic and anti-competitive practices. The latest effor… [+1886 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Android Central"
+            },
+            "author": "Alex Dobie",
+            "title": "Samsung Galaxy SmartTag+ review: The best Android AirTag competitor",
+            "description": "The new SmartTag supports AR and precise nearby tracking, but you'll need to live in Samsung's world to get the most out of it.\n\nSamsung debuted its vanilla SmartTag earlier in 2021, offering location tracking over Bluetooth 5.0 LE through its global network …",
+            "url": "https://www.androidcentral.com/samsung-galaxy-smarttag-plus-review",
+            "urlToImage": "https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2021/07/galaxy-smarttag-plus-1.jpg",
+            "publishedAt": "2021-07-08T11:00:02Z",
+            "content": "Source: Alex Dobie / Android Central\r\nSamsung debuted its vanilla SmartTag earlier in 2021, offering location tracking over Bluetooth 5.0 LE through its global network of Galaxy smartphones. Attach i… [+13279 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Android Central"
+            },
+            "author": "Kevin Lynch",
+            "title": "How to watch Gossip Girl 2021 reboot online from anywhere",
+            "description": "One of the most popular TV youth dramas of all time returns after a nine-year absence from screens, tracking the trials and tribulations of a whole new batch of glamorous young New Yorkers.\n\nRead on to find out how to watch Gossip Girl 2021 online from anywhe…",
+            "url": "https://www.androidcentral.com/gossip-girl-2021-how-stream-new-hbo-max-reboot-online-anywhere",
+            "urlToImage": "https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2021/07/gossip-girl-reboot-hero.jpg",
+            "publishedAt": "2021-07-08T13:49:42Z",
+            "content": "One of the most popular TV youth dramas of all time returns after a nine-year absence from screens, tracking the trials and tribulations of a whole new batch of glamorous young New Yorkers.\r\nRead on … [+5420 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Guardian"
+            },
+            "author": "Presented by Max Rushden with Barry Glendenning, Marcus Bean, Jonathan Wilson and Lars Sivertsen. Produced by Iain Chambers",
+            "title": "England edge extra-time epic to enter final battle – Euro 2020 Football Daily",
+            "description": "Max Rushden is joined by Lars Sivertsen, Jonathan Wilson, Barry Glendenning and Marcus Bean to discuss England’s semi-final winRate, review, share on Apple Podcasts, Soundcloud, Audioboom, Mixcloud, Acast and Stitcher, and join the conversation on Facebook, T…",
+            "url": "https://www.theguardian.com/football/audio/2021/jul/08/england-edge-extra-time-epic-to-enter-final-battle-euro-2020-football-daily",
+            "urlToImage": "https://i.guim.co.uk/img/media/f26610105e4c1675e370da10227ec59f95703f13/0_217_3500_2101/master/3500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=369c43c827c612295a968212b351ce21",
+            "publishedAt": "2021-07-08T02:11:55Z",
+            "content": "Rate, review, share on Apple Podcasts, Soundcloud, Audioboom, Mixcloud, Acast and Stitcher, and join the conversation on Facebook, Twitter and email.\r\nEngland squeaked past Denmark after extra time t… [+504 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MacRumors"
+            },
+            "author": "Tim Hardwick",
+            "title": "Apple TV+ Posts New 'Ted Lasso' Video Ahead of July 23 Premiere",
+            "description": "Ahead of a July 23 premiere, Apple TV+ has posted a new \"Ted Lasso\" video on its official YouTube channel called \"The Lasso Way.\"\n\n\n\n\r\n\n\nThe video combines clips from the new season with interviews with the cast of the series, discussing how the feel-good sho…",
+            "url": "https://www.macrumors.com/2021/07/08/apple-tv-new-ted-lasso-way-video/",
+            "urlToImage": "https://images.macrumors.com/t/9Pve2mDSctVNZQcZNc3wwaoPle4=/2120x/https://images.macrumors.com/article-new/2020/07/ted-lasso.jpg",
+            "publishedAt": "2021-07-08T06:50:20Z",
+            "content": "Ahead of a July 23 premiere, Apple TV+ has posted a new \"Ted Lasso\" video on its official YouTube channel called \"The Lasso Way.\"\r\nThe video combines clips from the new season with interviews with th… [+807 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MacRumors"
+            },
+            "author": "Tim Hardwick",
+            "title": "Apple's Eddy Cue Joins Duke University Board of Trustees",
+            "description": "Apple's senior VP of software and services Eddy Cue has joined the Board of Trustees at Duke University in North Carolina, institution officials have announced.\n\n\n\n\n\nCue earned bachelor's degrees in computer science and economics at Duke University. He is als…",
+            "url": "https://www.macrumors.com/2021/07/08/eddy-cue-duke-university-board-trustees/",
+            "urlToImage": "https://images.macrumors.com/t/DJW7CV6omHKMFwlbKJ6SGnQVzdw=/1600x/http://images.macrumors.com/article-new/2019/07/eddycuegq.jpg",
+            "publishedAt": "2021-07-08T11:39:25Z",
+            "content": "Apple's senior VP of software and services Eddy Cue has joined the Board of Trustees at Duke University in North Carolina, institution officials have announced.\r\nCue earned bachelor's degrees in comp… [+1146 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MacRumors"
+            },
+            "author": "Sami Fathi",
+            "title": "Apple to Open Apple Developer Academy in Saudi Arabia, First in the MENA Region",
+            "description": "Apple plans to open its first Apple Developer Academy headquarters for the Middle East and North African region (MENA) in Riyadh, the capital city of Saudi Arabia, reports Saudi Gazette. \n\n\n\n\n\nThe Apple Developer Academy is Apple's strategic program to ensure…",
+            "url": "https://www.macrumors.com/2021/07/08/apple-developer-academy-saudi-arabia/",
+            "urlToImage": "https://images.macrumors.com/t/SR-ObYDWbnDKOtai87pzz-l8Ork=/1632x/https://images.macrumors.com/article-new/2021/07/apple-dev-academy.jpg",
+            "publishedAt": "2021-07-08T07:51:57Z",
+            "content": "Apple plans to open its first Apple Developer Academy headquarters for the Middle East and North African region (MENA) in Riyadh, the capital city of Saudi Arabia, reports Saudi Gazette. \r\nThe Apple … [+1707 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MacRumors"
+            },
+            "author": "Hartley Charlton",
+            "title": "One of the UK's Most-Watched TV Moments Marred by Technical Issues on Apple TV",
+            "description": "The stream of the Euro 2020 soccer semi-final, one of the UK's most-watched TV moments in recent times, was yesterday hindered by frustrating technical issues for Apple TV users.\n\n\n\n\n\nThe technical problems, first reported on by iMore, affected viewers using …",
+            "url": "https://www.macrumors.com/2021/07/08/euro-2020-stream-issues-on-apple-tv/",
+            "urlToImage": "https://images.macrumors.com/t/p_L_Suh28h0zcnFU1ENTcEboKeo=/1777x/https://images.macrumors.com/article-new/2021/07/itv-hub-football-championship.jpg",
+            "publishedAt": "2021-07-08T12:52:36Z",
+            "content": "The stream of the Euro 2020 soccer semi-final, one of the UK's most-watched TV moments in recent times, was yesterday hindered by frustrating technical issues for Apple TV users.\r\nThe technical probl… [+1451 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MacRumors"
+            },
+            "author": "Juli Clover",
+            "title": "Beats Studio Buds vs. AirPods Pro",
+            "description": "Apple in June unveiled new Beats Studio Buds, which are $149 noise cancelling earbuds that are stemless and smaller than the AirPods and AirPods Pro. There are some key differences between the ‌AirPods Pro‌ and the Beats Studio Buds that make them unique for …",
+            "url": "https://www.macrumors.com/2021/07/08/beats-studio-buds-vs-airpods-pro/",
+            "urlToImage": "https://images.macrumors.com/t/c71zeceJ0wcQec6u5wn_z5SgQN8=/2000x/https://images.macrumors.com/article-new/2021/07/beats-studio-buds-vs-airpods-pro.jpg",
+            "publishedAt": "2021-07-08T18:27:58Z",
+            "content": "Apple in June unveiled new Beats Studio Buds, which are $149 noise cancelling earbuds that are stemless and smaller than the AirPods and AirPods Pro. There are some key differences between the ‌AirPo… [+2420 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Slashdot.org"
+            },
+            "author": "msmash",
+            "title": "Apple Founder Steve Wozniak Backs Right-to-Repair Movement",
+            "description": "Apple co-founder Steve Wozniak has issued a passionate endorsement of the right-to-repair movement, despite the company's opposition. From a report: The movement wants laws passed to guarantee users access to information and parts to repair their own devices.…",
+            "url": "https://apple.slashdot.org/story/21/07/08/2051258/apple-founder-steve-wozniak-backs-right-to-repair-movement",
+            "urlToImage": "https://a.fsdn.com/sd/topics/apple_64.png",
+            "publishedAt": "2021-07-08T22:02:00Z",
+            "content": "The Fine Print: The following comments are owned by whoever posted them. We are not responsible for them in any way."
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Slashdot.org"
+            },
+            "author": "msmash",
+            "title": "Evernote Quietly Disappeared From an Anti-Surveillance Lobbying Group's Website",
+            "description": "An anonymous reader shares a report: In 2013, eight tech companies were accused of funneling their users' data to the U.S. National Security Agency under the so-called PRISM program, according to highly classified government documents leaked by NSA whistleblo…",
+            "url": "https://yro.slashdot.org/story/21/07/08/1846225/evernote-quietly-disappeared-from-an-anti-surveillance-lobbying-groups-website",
+            "urlToImage": "https://a.fsdn.com/sd/topics/privacy_64.png",
+            "publishedAt": "2021-07-08T18:46:00Z",
+            "content": "In 2013, eight tech companies were accused of funneling their users' data to the U.S. National Security Agency under the so-called PRISM program, according to highly classified government documents l… [+1126 chars]"
+        }
+    ]
+}
