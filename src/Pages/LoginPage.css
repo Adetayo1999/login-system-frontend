@@ -1,0 +1,24 @@
+
+
+.login{
+     padding: 2rem;
+}
+
+
+.login .container{      
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.login__left{
+    margin-right: 40px;
+}
+
+
+.login__left img{
+    width:100%;
+}
+
+
