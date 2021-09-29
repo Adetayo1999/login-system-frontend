@@ -14,8 +14,21 @@ function LoginPage() {
   const handleChange = (e) => {
     if (e.target.name === "email") {
       setEmail(e.target.value);
+
+          if(email){
+              
+             setEmailError("");
+
+          }
+
+
     } else {
       setPassword(e.target.value);
+
+           if(password){
+               setPasswordError("")
+           }
+
     }
   };
 
@@ -63,7 +76,7 @@ function LoginPage() {
 
   
             
-        console.log(Passworderror , Emailerror);
+
 
   return (
     <div className="login">
@@ -76,7 +89,10 @@ function LoginPage() {
         </div>
 
         <form method="post">
-          <InputTag
+        
+                
+                <div className="form__group">
+                <InputTag
             type="text"
             placeholder="Email"
             name="email"
@@ -85,6 +101,11 @@ function LoginPage() {
             onBlur={handleBlur}
             error ={Emailerror}
           />
+             <p>{Emailerror}</p>
+                </div>
+
+             
+          <div className="form__group">
           <InputTag
             type="password"
             placeholder="Password"
@@ -94,6 +115,11 @@ function LoginPage() {
             onBlur={handleBlur}
             error={Passworderror}
           />
+           
+              <p>{Passworderror}</p>
+          </div>
+
+         
           <PrimaryButton type="submit" primary disabled={ (email && password ) ? false : true}>
             Login
           </PrimaryButton>

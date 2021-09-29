@@ -4,6 +4,7 @@
 
     padding:3rem;
     height: 100%;
+  
 }
 
 .login .container{
@@ -13,6 +14,18 @@
       align-items: center;
       flex-direction: column;
 
+}
+
+
+
+.form__group{
+    margin:20px auto;
+}
+
+.form__group p{
+    padding:0.3rem;
+    color:#dc3545;
+    transition: 0.3s ease-out;
 }
 
 

@@ -35,13 +35,15 @@
   padding:2rem;
   background:black;
   color:#fff;
-  height:100vh;
+  min-height:100vh;
+  height:100%;
 }
 
 
 .container{
   width:80%;
   margin:auto;
+  height:100%;
 }
 
 

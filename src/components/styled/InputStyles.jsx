@@ -8,7 +8,6 @@ export const InputTag = styled.input`
      background:black;
      border:1px solid  ${({error}) => error ? "#dc3545" : "#343a40"};
      outline:none;
-     margin:20px auto;
     border-radius:5px;
    color:#fff;
    display:block;
