@@ -1,11 +1,22 @@
 
 
    import React from 'react'
+   import {Link} from "react-router-dom";
    
+
    function NotFoundPage() {
        return (
            <div className="invalidpage">
-               <h1>Oops , Seems You're lost</h1>
+                    
+                    <div className="scary">
+
+                         &#127875;
+
+                    </div>
+
+
+               <p>Oops , Seems You're lost <Link to="/"> Go Home </Link></p>
+               
            </div>
        )
    }

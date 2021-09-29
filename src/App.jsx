@@ -1,12 +1,13 @@
-import React, { Suspense } from "react";
+import React, { lazy, Suspense } from "react";
 import "./App.css";
  import {BrowserRouter as Router , Switch , Route} from "react-router-dom";
-import LoginPage from "./Pages/LoginPage";
-import RegisterPage from "./Pages/RegisterPage";
-import ForgotPage from "./Pages/ForgotPage";
-import NotFoundPage from "./Pages/404";
+import Spinner from "./components/PageComponents/Spinner";
 
 
+const  ForgotPage = lazy(() => import("./Pages/ForgotPage"));
+ const NotFoundPage = lazy(() => import("./Pages/404"));
+const LoginPage =  lazy(() => import("./Pages/LoginPage"));
+const RegisterPage = lazy(() => import("./Pages/RegisterPage"));
 
 
 
@@ -15,7 +16,8 @@ function App() {
     <div className="app">       
            <Router>
             
-                    <Suspense fallback={<div>Loading...</div>}>
+                    <Suspense fallback={<Spinner />}>
+                     
             <Switch>
                     
 

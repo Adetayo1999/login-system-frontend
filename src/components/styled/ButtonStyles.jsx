@@ -26,7 +26,7 @@
 
  
       export const PrimaryButton = styled(Button)`       
-      background-color:${(props) => props.primary ? "#6f42c1" : props.disabled && "#343a40" };
+      background-color:${(props) => props.disabled ? "#343a40" : props.primary && "#6f42c1" };
       
        &:hover{           
            background-color:${({disabled}) => !disabled && "#5f3f9b" };
