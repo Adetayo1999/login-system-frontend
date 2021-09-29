@@ -88,7 +88,7 @@ function LoginPage() {
           </p>
         </div>
 
-        <form method="post">
+        <form method="post" autoComplete="off" >
         
                 
                 <div className="form__group">
