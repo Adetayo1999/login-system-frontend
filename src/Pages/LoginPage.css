@@ -8,12 +8,10 @@
 }
 
 .login .container{
-
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-
 }
 
 
@@ -31,7 +29,7 @@
 
 
 .loginForgot{
-  width:40%;
+  width:100%;
 text-align: end;
 
 }
