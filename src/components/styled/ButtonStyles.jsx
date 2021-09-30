@@ -22,6 +22,15 @@
             transform:${({disabled}) => !disabled && "translateY(-2px)"};
          }
 
+         
+      @media(max-width:600px){
+         width:300px;
+         font-size:15px;
+         padding:0.6rem 1.5rem;
+         margin:15px auto;           
+       }   
+ 
+
       `;
 
  

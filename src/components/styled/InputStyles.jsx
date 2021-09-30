@@ -22,4 +22,11 @@ export const InputTag = styled.input`
         border-color:#6f42c1;
    }
 
+
+      @media(max-width:600px){
+        width:300px;
+        font-size:15px;
+     padding:0.8rem 1.3rem;
+      }   
+
 `
