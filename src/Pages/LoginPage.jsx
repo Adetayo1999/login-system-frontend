@@ -20,6 +20,14 @@ function LoginPage() {
              setEmailError("");
 
           }
+          if (
+
+            !(/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(
+              email,
+            ))
+          ) {
+            setEmailError("Email Not Valid");
+          }
 
 
     } else {
@@ -33,11 +41,6 @@ function LoginPage() {
   };
 
   const handleBlur = (e) => {        
-
- 
-
-
-
     if (e.target.name === "email") {
               
             if(!email){
@@ -75,7 +78,18 @@ function LoginPage() {
 
 
   
-            
+            const handleSubmit = (e) => {
+                  
+                e.preventDefault();
+
+                 if(!emailErrror && !passwordError){
+                     
+                       console.log("Valid");
+
+                 }
+                      
+
+            }
 
 
   return (
