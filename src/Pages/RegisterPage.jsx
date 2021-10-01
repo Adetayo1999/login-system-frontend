@@ -1,7 +1,8 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState  } from "react";
+import { Link , useHistory } from "react-router-dom";
 import { PrimaryButton } from "../components/styled/ButtonStyles";
 import { InputTag } from "../components/styled/InputStyles";
+import {defaultURL} from "../consts";
 import "./LoginPage.css";
 
 function RegisterPage() {
@@ -13,6 +14,7 @@ function RegisterPage() {
   const [emailError, setEmailError] = useState("");
   const [passwordError, setPasswordError] = useState("");
   const [password2Error, setPassword2Error] = useState("");
+  const history = useHistory();
 
   const handleChange = (e) => {
     if (e.target.name === "fullname") {
@@ -60,6 +62,15 @@ function RegisterPage() {
           if(!email){
               setEmailError("This Field Is Required")
           }
+         else if (
+
+            !(/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(
+              email,
+            ))
+          ) {
+            setEmailError("Email Not Valid");
+          }
+
           else{
               setEmailError("");
           }
@@ -100,17 +111,64 @@ function RegisterPage() {
     }
   };
 
+ const handleSubmit = (e) => {
+      
+            e.preventDefault();
+
+     if(!nameError && !emailError && !password2Error && !passwordError){
+          
+              fetch(`${defaultURL}/register` , {
+                method:"POST",
+                headers:{
+                    "Content-Type":"application/json"
+                },
+                body:JSON.stringify({
+                  name,
+                  email,
+                  password
+                })
+              })
+              .then(res => res.json())
+              .then(data => {
+                  
+                 if(data.message){
+                     
+                  console.log(data)
+                  
+                  history.push("/login");
+
+                 }
+
+                 else{
+                   console.log(data);
+                     
+                   setEmailError(`${data.error}`);
+                    
+
+
+                 }
+          
+ 
+              })
+              .catch(error => console.log(error))
+       
+     }
+   
+ } 
+
+
+
   return (
     <div className="login">
       <div className="container">
         <div className="intro">
           <h1>Hello Guest, &#128075;</h1>
           <p>
-            Registered User? <Link to="/">Login Here</Link>
+            Registered User? <Link to="/login">Login Here</Link>
           </p>
         </div>
 
-        <form>
+        <form  autoComplete="off" onSubmit={handleSubmit} >
           <div className="form__group">
             <InputTag
               type="text"

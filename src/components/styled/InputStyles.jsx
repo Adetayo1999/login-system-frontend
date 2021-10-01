@@ -19,7 +19,7 @@ export const InputTag = styled.input`
    }
  
    &:focus{
-        border-color:#6f42c1;
+        border-color:${({error}) => error ? "#dc3545" : "#6f42c1" };
    }
 
 

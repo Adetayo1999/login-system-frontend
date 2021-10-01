@@ -42,3 +42,22 @@
        }
 
       `
+
+      export const LinkButton = styled(Button)`
+        
+          border-radius:999px;
+          background-color:#6f42c1;
+          margin:20px auto;
+      
+       a{
+          text-decoration:none;
+          color:#fff;
+       }
+     
+
+          &:hover{           
+              background-color:#5f3f9b;
+          }
+   
+      
+      `

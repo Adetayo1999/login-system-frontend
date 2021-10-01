@@ -1,7 +1,10 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import { PrimaryButton } from "../components/styled/ButtonStyles";
 import { InputTag } from "../components/styled/InputStyles";
+import { defaultURL } from "../consts";
+import { UseTokenContext } from "../Context/Context";
+import { actionTypes } from "../Context/reducer";
 import "./LoginPage.css";
 
 function LoginPage() {
@@ -9,88 +12,88 @@ function LoginPage() {
   const [password, setPassword] = useState("");
   const [Emailerror, setEmailError] = useState("");
   const [Passworderror, setPasswordError] = useState("");
-
+  const [state, dispatch] = UseTokenContext();
+  const history = useHistory();
 
   const handleChange = (e) => {
     if (e.target.name === "email") {
       setEmail(e.target.value);
 
-          if(email){
-              
-             setEmailError("");
-
-          }
-          if (
-
-            !(/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(
-              email,
-            ))
-          ) {
-            setEmailError("Email Not Valid");
-          }
-
-
+      if (email) {
+        setEmailError("");
+      }
     } else {
       setPassword(e.target.value);
 
-           if(password){
-               setPasswordError("")
-           }
-
+      if (password) {
+        setPasswordError("");
+      }
     }
   };
 
-  const handleBlur = (e) => {        
+  const handleBlur = (e) => {
     if (e.target.name === "email") {
+      if (!email) {
+        setEmailError("This Field Is Required");
+      } else if (
+        !/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(
+          email
+        )
+      ) {
+        setEmailError("Email Not Valid");
+      } else {
+        setEmailError("");
+      }
+    } else {
+      if (!password) {
+        setPasswordError("This Field Is Required");
+      } else {
+        setPasswordError("");
+      }
+    }
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (!Emailerror && !Passworderror) {
+      fetch(`${defaultURL}/login`, {
+        method: "POST",
+        credentials:'include',
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email,
+          password,
+        }),
+      })
+        .then((res) => res.json())
+        .then((data) => {
+         
+          if (data.accessToken) {
+            dispatch({
+              type: actionTypes.SET_ACCESS_TOKEN,
+              token: data.accessToken,
+            });
+
+                      history.push("/");
+          }
+
+          else{
               
-            if(!email){
+                setEmailError(`${data.error}`)
+                setPasswordError(`${data.error}`);
 
-                    setEmailError("This Field Is Required");
-
-            }
-
-            else{
-
-                  setEmailError("")
-
-            }
+          }
 
 
-      }
 
-       else {
-        
-           
-        if(!password){
 
-            setPasswordError("This Field Is Required");
-
+        })
+        .catch((error) => console.log("error"));
     }
-
-    else{
-
-          setPasswordError("")
-
-    }
-
-      }
-    };
-
-
-  
-            const handleSubmit = (e) => {
-                  
-                e.preventDefault();
-
-                 if(!emailErrror && !passwordError){
-                     
-                       console.log("Valid");
-
-                 }
-                      
-
-            }
-
+  };
 
   return (
     <div className="login">
@@ -102,39 +105,39 @@ function LoginPage() {
           </p>
         </div>
 
-        <form method="post" autoComplete="off" >
-        
-                
-                <div className="form__group">
-                <InputTag
-            type="text"
-            placeholder="Email"
-            name="email"
-            value={email}
-            onChange={handleChange}
-            onBlur={handleBlur}
-            error ={Emailerror}
-          />
-             <p>{Emailerror}</p>
-                </div>
-
-             
+        <form autoComplete="off" onSubmit={handleSubmit}>
           <div className="form__group">
-          <InputTag
-            type="password"
-            placeholder="Password"
-            name="password"
-            value={password}
-            onChange={handleChange}
-            onBlur={handleBlur}
-            error={Passworderror}
-          />
-           
-              <p>{Passworderror}</p>
+            <InputTag
+              type="text"
+              placeholder="Email"
+              name="email"
+              value={email}
+              onChange={handleChange}
+              onBlur={handleBlur}
+              error={Emailerror}
+            />
+            <p>{Emailerror}</p>
           </div>
 
-         
-          <PrimaryButton type="submit" primary disabled={ (email && password ) ? false : true}>
+          <div className="form__group">
+            <InputTag
+              type="password"
+              placeholder="Password"
+              name="password"
+              value={password}
+              onChange={handleChange}
+              onBlur={handleBlur}
+              error={Passworderror}
+            />
+
+            <p>{Passworderror}</p>
+          </div>
+
+          <PrimaryButton
+            type="submit"
+            primary
+            disabled={email && password ? false : true}
+          >
             Login
           </PrimaryButton>
         </form>
