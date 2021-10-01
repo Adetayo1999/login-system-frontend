@@ -14,6 +14,7 @@ function RegisterPage() {
   const [emailError, setEmailError] = useState("");
   const [passwordError, setPasswordError] = useState("");
   const [password2Error, setPassword2Error] = useState("");
+  const [isLoaded , setIsloaded] = useState(false);
   const history = useHistory();
 
   const handleChange = (e) => {
@@ -115,7 +116,11 @@ function RegisterPage() {
       
             e.preventDefault();
 
+                  
+
      if(!nameError && !emailError && !password2Error && !passwordError){
+            
+                 setIsloaded(true)
           
               fetch(`${defaultURL}/register` , {
                 method:"POST",
@@ -130,7 +135,9 @@ function RegisterPage() {
               })
               .then(res => res.json())
               .then(data => {
-                  
+                
+                setIsloaded(false);
+                
                  if(data.message){
                      
                   console.log(data)
@@ -220,7 +227,7 @@ function RegisterPage() {
             </div>
 
           <PrimaryButton type="submit" primary disabled={(name && email && password && password2) ? false : true}>
-            Register
+            {isLoaded ? "Loading..." : "Register"}
           </PrimaryButton>
         </form>
       </div>

@@ -13,6 +13,7 @@ function LoginPage() {
   const [Emailerror, setEmailError] = useState("");
   const [Passworderror, setPasswordError] = useState("");
   const [state, dispatch] = UseTokenContext();
+  const [isLoading , setIsLoading] = useState(false);
   const history = useHistory();
 
   const handleChange = (e) => {
@@ -57,6 +58,9 @@ function LoginPage() {
     e.preventDefault();
 
     if (!Emailerror && !Passworderror) {
+        
+      setIsLoading(true);
+       
       fetch(`${defaultURL}/login`, {
         method: "POST",
         credentials:'include',
@@ -70,7 +74,8 @@ function LoginPage() {
       })
         .then((res) => res.json())
         .then((data) => {
-         
+
+      setIsLoading(false);
           if (data.accessToken) {
             dispatch({
               type: actionTypes.SET_ACCESS_TOKEN,
@@ -138,7 +143,7 @@ function LoginPage() {
             primary
             disabled={email && password ? false : true}
           >
-            Login
+            {isLoading ? "Loading..." : "Login"}
           </PrimaryButton>
         </form>
 

@@ -1,5 +1,6 @@
 
   import React , {useEffect} from 'react'
+import { useState } from 'react';
   import { PrimaryButton } from '../components/styled/ButtonStyles'
 import { defaultURL } from '../consts';
   import { UseTokenContext } from '../Context/Context'
@@ -7,7 +8,7 @@ import { defaultURL } from '../consts';
   
   function Dashboard() {
      const [state , dispatch] = UseTokenContext();
-
+     const [isLoading , setIsLoading] = useState(false);
 
           useEffect(() => {
                
@@ -40,6 +41,7 @@ import { defaultURL } from '../consts';
 
     
     const handleLogOut = () => {         
+      setIsLoading(true);
       fetch(`${defaultURL}/logout` , {
         method:"POST",
         credentials:"include",
@@ -49,6 +51,7 @@ import { defaultURL } from '../consts';
       })
       .then(res => res.json())
       .then(data => {
+                setIsLoading(false);
               dispatch({
                 type:actionTypes.SET_ACCESS_TOKEN,
                 token:""
@@ -62,10 +65,16 @@ import { defaultURL } from '../consts';
 
       return (
           <div>
-           <h1>Dashboard For {state.username} </h1>   
+
+             {
+
+              state.username ? <h1>Dashboard For {state.username} </h1> : <p>Please Wait</p>
+             }
+
+              
 
 
-                 <PrimaryButton type="button" primary onClick={handleLogOut} >Log Out</PrimaryButton>
+                 <PrimaryButton type="button" primary onClick={handleLogOut} >{isLoading ? "Logging Out..." : "Log Out"}</PrimaryButton>
 
           </div>
       )
